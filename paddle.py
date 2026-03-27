@@ -4,7 +4,7 @@ import settings
 class Paddle:
     def_init_(self):
     self.rect = pygame.Rect(
-      settings.WIDTH/2-settings.PADDLE_WIDTH/2,
+      settings.WIDTH//2-settings.PADDLE_WIDTH//2,
       settings.HEIGHT-50,
       settings.PADDLE_WIDTH,
       settings.PADDLE_HEIGHT
