@@ -1,7 +1,7 @@
 import pygame
 import Settings
 
-class Brick:
+class brick:
     def __init__(self, x, y):
         self.rect = pygame.Rect(x, y, settings.BRICK_WIDTH, settings.BRICK_HEIGHT
         )
